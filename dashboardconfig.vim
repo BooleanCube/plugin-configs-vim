@@ -1,4 +1,6 @@
-let s:header_default = [
+let g:dashboard_default_executive ='telescope'
+
+let g:dashboard_custom_header = [
       \ '',
       \ '',
       \ '                      ██████╗  ██████╗  ██████╗ ██╗                           ',
@@ -11,8 +13,3 @@ let s:header_default = [
       \ ' Ｗｅ＇ｌｌ　ｇｏ　ｔｏ　ｖｅｒｙ　ｄｉｓｔａｎｔ　ｌａｎｄｓ　ぼ畝ワ咽永ラ ',
       \ '',
       \ ]
-
-
-function! dashboard#header#get_header()
-  return s:header_default
-endfunction
